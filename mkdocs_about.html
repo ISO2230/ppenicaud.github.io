@@ -4,14 +4,21 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <link rel="shortcut icon" href="/img/favicon.ico" />
-    <title>Paul Pénicaud-Desury</title>
-    <link rel="stylesheet" href="/css/theme.css" />
-    <link rel="stylesheet" href="/css/theme_extra.css" />
+      <link rel="shortcut icon" href="img/favicon.ico" />
+    <title>Welcome to MkDocs - Paul Pénicaud-Desury</title>
+    <link rel="stylesheet" href="css/theme.css" />
+    <link rel="stylesheet" href="css/theme_extra.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
     
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Welcome to MkDocs";
+        var mkdocs_page_input_path = "mkdocs_about.md";
+        var mkdocs_page_url = null;
+      </script>
+    
     <!--[if lt IE 9]>
-      <script src="/js/html5shiv.min.js"></script>
+      <script src="js/html5shiv.min.js"></script>
     <![endif]-->
       <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
       <script>hljs.highlightAll();</script> 
@@ -23,9 +30,9 @@
     <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
     <div class="wy-side-scroll">
       <div class="wy-side-nav-search">
-          <a href="/index.html" class="icon icon-home"> Paul Pénicaud-Desury
+          <a href="index.html" class="icon icon-home"> Paul Pénicaud-Desury
         </a><div role="search">
-  <form id ="rtd-search-form" class="wy-form" action="//search.html" method="get">
+  <form id ="rtd-search-form" class="wy-form" action="./search.html" method="get">
       <input type="text" name="q" placeholder="Rechercher des documents" aria-label="Rechercher des documents" title="Tapez vos mots clés ici" />
   </form>
 </div>
@@ -33,23 +40,23 @@
 
       <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Menu de navigation">
               <ul>
-                <li class="toctree-l1"><a class="reference internal" href="/index.html">Accueil</a>
+                <li class="toctree-l1"><a class="reference internal" href="index.html">Accueil</a>
                 </li>
               </ul>
               <ul>
-                <li class="toctree-l1"><a class="reference internal" href="/experiences.html">Expériences</a>
+                <li class="toctree-l1"><a class="reference internal" href="experiences.html">Expériences</a>
                 </li>
               </ul>
               <ul>
-                <li class="toctree-l1"><a class="reference internal" href="/competences.html">Compétences professionnelles</a>
+                <li class="toctree-l1"><a class="reference internal" href="competences.html">Compétences professionnelles</a>
                 </li>
               </ul>
               <ul>
-                <li class="toctree-l1"><a class="reference internal" href="/documentation.html">Documentation</a>
+                <li class="toctree-l1"><a class="reference internal" href="documentation.html">Documentation</a>
                 </li>
               </ul>
               <ul>
-                <li class="toctree-l1"><a class="reference internal" href="/veille.html">Veille</a>
+                <li class="toctree-l1"><a class="reference internal" href="veille.html">Veille</a>
                 </li>
               </ul>
       </div>
@@ -59,13 +66,14 @@
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
       <nav class="wy-nav-top" role="navigation" aria-label="Menu de navigation sur mobile">
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="/index.html">Paul Pénicaud-Desury</a>
+          <a href="index.html">Paul Pénicaud-Desury</a>
         
       </nav>
       <div class="wy-nav-content">
         <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
-    <li><a href="/index.html" class="icon icon-home" aria-label="Documents"></a></li>
+    <li><a href="index.html" class="icon icon-home" aria-label="Documents"></a></li>
+      <li class="breadcrumb-item active">Welcome to MkDocs</li>
     <li class="wy-breadcrumbs-aside">
     </li>
   </ul>
@@ -74,12 +82,22 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-
-  <h1 id="404-page-not-found">404</h1>
-
-  <p><strong>Page non trouvée</strong></p>
-
-
+                <h1 id="welcome-to-mkdocs">Welcome to MkDocs</h1>
+<p>For full documentation visit <a href="https://www.mkdocs.org">mkdocs.org</a>.</p>
+<h2 id="commands">Commands</h2>
+<ul>
+<li><code>mkdocs new [dir-name]</code> - Create a new project.</li>
+<li><code>mkdocs serve</code> - Start the live-reloading docs server.</li>
+<li><code>mkdocs build</code> - Build the documentation site.</li>
+<li><code>mkdocs -h</code> - Print help message and exit.</li>
+</ul>
+<h2 id="project-layout">Project layout</h2>
+<pre><code>mkdocs.yml    # The configuration file.
+docs/
+    index.md  # The documentation homepage.
+    ...       # Other markdown pages, images and other files.
+</code></pre>
+              
             </div>
           </div><footer>
 
@@ -106,11 +124,11 @@
     
   </span>
 </div>
-    <script src="/js/jquery-3.6.0.min.js"></script>
-    <script>var base_url = "/";</script>
-    <script src="/js/theme_extra.js"></script>
-    <script src="/js/theme.js"></script>
-      <script src="/search/main.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = ".";</script>
+    <script src="js/theme_extra.js"></script>
+    <script src="js/theme.js"></script>
+      <script src="search/main.js"></script>
     <script>
         jQuery(function () {
             SphinxRtdTheme.Navigation.enable(true);
